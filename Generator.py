@@ -8,7 +8,7 @@ def removePunctuation(wordFile):
     content = [w for w in wordFile if w.isalpha()]
     return content
 
-corpus_root = r'DC3/Country'
+corpus_root = r'Country'
 fileLists = PlaintextCorpusReader(corpus_root, '.*\.txt')
 
 allWords = []
